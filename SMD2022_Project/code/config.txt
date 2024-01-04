@@ -1,0 +1,5 @@
+database=smdvault 
+host=localhost
+user=smd
+password=smd2022
+port=5432

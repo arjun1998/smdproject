@@ -1,0 +1,3 @@
+SELECT i.sequence,j.sequence,k.sequence,i.source,i.timestamp FROM smdproject.hubexperiment i JOIN smdproject.hubfactor j ON i.sequence = j.experiment JOIN smdproject.hubtreatment k ON i.sequence = k.experiment;
+SELECT i.sequence,k.sequence,ht.sequence FROM smdproject.hubexperiment i JOIN smdproject.participatesin j ON i.sequence = j.experiment JOIN smdproject.hubexperimentalunit k on k.sequence = j.experimentalunit JOIN smdproject.hubtreatment ht ON i.sequence = ht.experiment JOIN smdproject.hubgroup h ON ht.sequence = h.treatment;
+SELECT m.* from smdproject.hubobservation o JOIN smdproject.observationmetadata m  ON o.sequence = m.observation; 

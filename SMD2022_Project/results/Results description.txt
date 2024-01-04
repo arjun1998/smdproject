@@ -1,0 +1,8 @@
+snapshot of successful file reading is given in Files reading.png
+snapshot of successful tables creation and data insertion is shown in Tables creation and Data insertion into tables.png
+snapshot of successful querying in shown in Information layer querying and code execution completion.png
+snapshot of records in DB is showm in records shown in DB.png
+snapshot of plot 1 is shown in Query 1 plot .png
+snapshot of plot 6 is shown in Query 6 plot .png
+snapshot of successful query results in shown in Information layer query results.xlsx
+
